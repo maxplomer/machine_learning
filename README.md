@@ -4,7 +4,7 @@ A Matlab app that uses support vector machines to classify whether a picture has
 
 #Datasets
 
-I am using the Cat Annotation Dataset from 
+For training the classifier am using the Cat Annotation Dataset from 
 
 Weiwei Zhang, Jian Sun, and Xiaoou Tang, "Cat Head Detection - How to Effectively Exploit Shape and Texture Features", Proc. of European Conf. Computer Vision, vol. 4, pp.802-816, 2008.
 
