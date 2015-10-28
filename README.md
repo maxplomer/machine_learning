@@ -105,6 +105,7 @@ Here is a larger cropping image with a filter to increase the height and weight 
                 |-- n02085620_199.jpg
                 |-- n02085620_242.jpg
                 |-- n02085620_275.jpg
+                ...
             |-- n02085782-Japanese_spaniel
             |-- n02085936-Maltese_dog
             |-- n02086079-Pekinese
