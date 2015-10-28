@@ -47,5 +47,24 @@ Provided is a listing.json file
      "CAT_00/00000001_017",
      ...
 
+A .cat file contains 19 numbers
 
+    9 175 160 239 162 199 199 149 121 137 78 166 93 281 101 312 96 296 133 
+
+The first is always 9, and the next pairs[x to right, y down] are 
+
+- Left Eye
+- Right Eye
+- Mouth
+- Left Ear-1
+- Left Ear-2
+- Left Ear-3
+- Right Ear-1
+- Right Ear-2
+- Right Ear-3
+
+Here is the cat for those coordinates
+
+
+![Alt text][readme_cat.jpg]
 
