@@ -69,7 +69,7 @@ Here is the cat for those coordinates
 ![](readme_cat.jpg)
 
 
-Here is the cat with blue pixels where the coordinates exists
+Here is the cat with yellow squares where the coordinates exists
 
 
 ![](readme_cat_dots.jpg)

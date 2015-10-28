@@ -8,9 +8,9 @@ function map_cat_coordinates()
     for i=1:2:length(coors)
         right = coors(i);
         down = coors(i+1);
-        image_data(down, right, 1) = 0;
-        image_data(down, right, 2) = 0;
-        image_data(down, right, 3) = 255;
+        image_data((down-2):(down+2), (right-2):(right+2), 1) = 255;
+        image_data((down-2):(down+2), (right-2):(right+2), 2) = 255;
+        image_data((down-2):(down+2), (right-2):(right+2), 3) = 0;
     end
     
     imshow(image_data);
