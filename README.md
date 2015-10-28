@@ -74,3 +74,13 @@ Here is the cat with yellow squares where the coordinates exists
 
 ![](readme_cat_dots.jpg)
 
+
+Here is the image cropped to only include the coordinates
+
+![](readme_cat_cropped.jpg)
+
+Here is a larger cropping image with a filter to increase the height and weight by 50% respectively.
+
+![](readme_cat_larger_cropped.jpg)
+
+
