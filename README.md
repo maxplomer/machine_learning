@@ -142,3 +142,7 @@ An annotation file contains xml data including xmin/xmax/ymin/ymax values for th
 Here is the dog for those coordinates
 
 ![](readme_dog.jpg)
+
+Here is the image cropped to only include the coordinates
+
+![](readme_dog_cropped.jpg)
