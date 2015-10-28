@@ -66,5 +66,5 @@ The first is always 9, and the next pairs[x to right, y down] are
 Here is the cat for those coordinates
 
 
-![Alt text][readme_cat.jpg]
+![](readme_cat.jpg)
 
