@@ -83,4 +83,62 @@ Here is a larger cropping image with a filter to increase the height and weight 
 
 ![](readme_cat_larger_cropped.jpg)
 
+#Stanford Dogs Dataset
 
+###Structure
+
+    |-- dog_dataset
+        |-- Annotation
+            |-- n02085620-Chihuahua
+                |-- n02085620_7
+                |-- n02085620_199
+                |-- n02085620_242
+                |-- n02085620_275
+                ...
+            |-- n02085782-Japanese_spaniel
+            |-- n02085936-Maltese_dog
+            |-- n02086079-Pekinese
+            ... 
+        |-- Images
+            |-- n02085620-Chihuahua
+                |-- n02085620_7.jpg
+                |-- n02085620_199.jpg
+                |-- n02085620_242.jpg
+                |-- n02085620_275.jpg
+            |-- n02085782-Japanese_spaniel
+            |-- n02085936-Maltese_dog
+            |-- n02086079-Pekinese
+            ... 
+
+
+An annotation file contains xml data including xmin/xmax/ymin/ymax values for the dog in the image
+
+    <annotation>
+        <folder>02085620</folder>
+        <filename>n02085620_7</filename>
+        <source>
+            <database>ImageNet database</database>
+        </source>
+        <size>
+            <width>250</width>
+            <height>188</height>
+            <depth>3</depth>
+        </size>
+        <segment>0</segment>
+        <object>
+            <name>Chihuahua</name>
+            <pose>Unspecified</pose>
+            <truncated>0</truncated>
+            <difficult>0</difficult>
+            <bndbox>
+                <xmin>71</xmin>
+                <ymin>1</ymin>
+                <xmax>192</xmax>
+                <ymax>180</ymax>
+            </bndbox>
+        </object>
+    </annotation>
+
+Here is the dog for those coordinates
+
+![](readme_dog.jpg)
