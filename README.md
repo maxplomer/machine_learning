@@ -146,3 +146,6 @@ Here is the dog for those coordinates
 Here is the image cropped to only include the coordinates
 
 ![](readme_dog_cropped.jpg)
+
+Given the provided datasets, we could train our classifer to identify either cat faces or dog bodies.  Or find additional datasets or process to crop the cat dataset to show entire body or crop dog dataset down to face.
+
