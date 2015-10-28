@@ -36,7 +36,7 @@ http://vision.stanford.edu/aditya86/ImageNetDogs/
         |-- CAT_05
         |-- CAT_06
 
-- provided is a listing.json file 
+Provided is a listing.json file 
 
     ["CAT_00/00000001_000",
      "CAT_00/00000001_005",
