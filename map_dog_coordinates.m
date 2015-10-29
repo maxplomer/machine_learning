@@ -14,6 +14,10 @@ function map_dog_coordinates()
     lvl = graythresh(cropped_image_data);
     processedImage = im2bw(cropped_image_data,lvl);
     
-    figure(4)
+    figure(2)
     imshow(processedImage);
+    
+    [featureVector, hogVisualization] = extractHOGFeatures(processedImage);
+    figure(3)
+    plot(hogVisualization);
 end

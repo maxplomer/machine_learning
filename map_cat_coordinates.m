@@ -69,6 +69,10 @@ function map_cat_coordinates()
     imshow(processedImage);
     
     
+    [featureVector, hogVisualization] = extractHOGFeatures(processedImage);
+    figure(5)
+    plot(hogVisualization);
+    
     
     
 

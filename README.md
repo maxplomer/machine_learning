@@ -152,8 +152,20 @@ Given the provided datasets, we could train our classifer to identify either cat
 
 #Pre-processing step
 
-The pre-processing step resizes image to width 150px and removes noise
+The pre-processing step resizes image to height 150px and removes noise
 
 ![](readme_cat_processed1.jpg)
 
 ![](readme_dog_processed1.jpg)
+
+
+#Histogram of oriented gradients
+
+Compute histogram of oriented gradients.  The data used to train the classifer is the vector of image gradient values.
+
+https://en.wikipedia.org/wiki/Histogram_of_oriented_gradients
+
+
+![](readme_cat_processed2.jpg)
+
+![](readme_dog_processed2.jpg)
