@@ -27,12 +27,21 @@ function [ picture_array, xmin_array, xmax_array, ymin_array, ymax_array ] = get
         formatSpec = '%d';
         picture_crop_values = fscanf(fileID,formatSpec);
         fclose(fileID);
+       
+        picture_crop_values = picture_crop_values(2:19);
         
+        even = picture_crop_values(2:2:length(picture_crop_values));
+        odd = picture_crop_values(1:2:length(picture_crop_values));
+        y_min = min(even);
+        y_max = max(even);
+        x_min = min(odd);
+        x_max = max(odd);
         
-        picture_crop_values
-        
+        xmin_array(i) = x_min;
+        xmax_array(i) = x_max;
+        ymin_array(i) = y_min;
+        ymax_array(i) = y_max; 
     end
-    
     
     
     
