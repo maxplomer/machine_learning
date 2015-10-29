@@ -66,22 +66,22 @@ The first is always 9, and the next pairs[x to right, y down] are
 Here is the cat for those coordinates
 
 
-![](readme_cat.jpg)
+![](readme_images/readme_cat.jpg)
 
 
 Here is the cat with yellow squares where the coordinates exists
 
 
-![](readme_cat_dots.jpg)
+![](readme_images/readme_cat_dots.jpg)
 
 
 Here is the image cropped to only include the coordinates
 
-![](readme_cat_cropped.jpg)
+![](readme_images/readme_cat_cropped.jpg)
 
 Here is a larger cropping image with a filter to increase the height and weight by 50% respectively.
 
-![](readme_cat_larger_cropped.jpg)
+![](readme_images/readme_cat_larger_cropped.jpg)
 
 #Stanford Dogs Dataset
 
@@ -142,11 +142,11 @@ An annotation file contains xml data including xmin/xmax/ymin/ymax values for th
 
 Here is the dog for those coordinates
 
-![](readme_dog.jpg)
+![](readme_images/readme_dog.jpg)
 
 Here is the image cropped to only include the coordinates
 
-![](readme_dog_cropped.jpg)
+![](readme_images/readme_dog_cropped.jpg)
 
 Given the provided datasets, we could train our classifer to identify either cat faces or dog bodies.  Or find additional datasets or process to crop the cat dataset to show entire body or crop dog dataset down to face.  Also there is the issue of resizing of image and canvas to give a square/uniform input to the classifer.
 
@@ -154,9 +154,9 @@ Given the provided datasets, we could train our classifer to identify either cat
 
 The pre-processing step resizes image to height 150px and removes noise
 
-![](readme_cat_processed1.jpg)
+![](readme_images/readme_cat_processed1.jpg)
 
-![](readme_dog_processed1.jpg)
+![](readme_images/readme_dog_processed1.jpg)
 
 
 #Histogram of oriented gradients
@@ -166,6 +166,6 @@ Compute histogram of oriented gradients.  The data used to train the classifer i
 https://en.wikipedia.org/wiki/Histogram_of_oriented_gradients
 
 
-![](readme_cat_processed2.jpg)
+![](readme_images/readme_cat_processed2.jpg)
 
-![](readme_dog_processed2.jpg)
+![](readme_images/readme_dog_processed2.jpg)
