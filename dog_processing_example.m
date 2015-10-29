@@ -1,4 +1,4 @@
-function map_dog_coordinates()
+function dog_processing_example()
     clc;clear;                
     x_min = 71;
     y_min = 1;

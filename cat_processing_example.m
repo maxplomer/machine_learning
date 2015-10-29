@@ -1,4 +1,4 @@
-function map_cat_coordinates()
+function cat_processing_example()
     clc;clear;
 
     coors = [175 160 239 162 199 199 149 121 137 78 166 93 281 101 312 96 296 133];
