@@ -150,3 +150,9 @@ Here is the image cropped to only include the coordinates
 
 Given the provided datasets, we could train our classifer to identify either cat faces or dog bodies.  Or find additional datasets or process to crop the cat dataset to show entire body or crop dog dataset down to face.  Also there is the issue of resizing of image and canvas to give a square/uniform input to the classifer.
 
+#Pre-processing step
+
+The pre-processing step resizes image to width 150px and removes noise
+
+![](readme_cat_processed1.jpg)
+

@@ -61,6 +61,12 @@ function map_cat_coordinates()
     figure(3)
     imshow(larger_cropped_image_data);
     
+    larger_cropped_image_data = imresize(larger_cropped_image_data,[150 NaN]);
+    lvl = graythresh(larger_cropped_image_data);
+    processedImage = im2bw(larger_cropped_image_data,lvl);
+    
+    figure(4)
+    imshow(processedImage);
     
     
     
