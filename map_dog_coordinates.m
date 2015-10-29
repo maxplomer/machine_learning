@@ -10,4 +10,10 @@ function map_dog_coordinates()
     figure(1)
     imshow(cropped_image_data);
     
+    cropped_image_data = imresize(cropped_image_data,[150 NaN]);
+    lvl = graythresh(cropped_image_data);
+    processedImage = im2bw(cropped_image_data,lvl);
+    
+    figure(4)
+    imshow(processedImage);
 end

@@ -156,3 +156,4 @@ The pre-processing step resizes image to width 150px and removes noise
 
 ![](readme_cat_processed1.jpg)
 
+![](readme_dog_processed1.jpg)
