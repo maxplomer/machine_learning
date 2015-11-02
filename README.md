@@ -169,3 +169,46 @@ https://en.wikipedia.org/wiki/Histogram_of_oriented_gradients
 ![](readme_images/readme_cat_processed2.jpg)
 
 ![](readme_images/readme_dog_processed2.jpg)
+
+
+#Matlab method fitcecoc
+
+Create and train a classifier using the extracted features. 
+
+    classifier = fitcecoc(trainingFeatures, trainingLabels);
+
+
+###trainingFeatures structure
+
+size
+
+    >> size(trainingFeatures)
+
+    ans =
+
+            1010         324
+
+data is matrix of Histogram of oriented gradients (HOG) output for each training picture.  All values are filled suggesting that picture fed into hog generator are all same ratio/resolution
+
+    trainingFeatures(1,:) = [0.0470         0         0         0         0         0    0.1954 ... ]
+
+
+
+
+###trainingLabels structure
+
+size is just an array
+
+    >> size(trainingLabels)
+
+    ans =
+
+            1010           1
+
+data is index value that eventually correspond to cat/dog/not cat or dog
+
+    trainingLabels = [0 0 0 0 0 ...  1 1 1 1 1 ...etc... 9 9 9 9 9]
+
+
+
+
