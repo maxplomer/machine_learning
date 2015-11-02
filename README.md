@@ -190,7 +190,7 @@ size
 
 data is matrix of Histogram of oriented gradients (HOG) output for each training picture.  All values are filled suggesting that picture fed into hog generator are all same ratio/resolution
 
-    trainingFeatures(1,:) = [0.0470         0         0         0         0         0    0.1954 ... ]
+    trainingFeatures(1,:) = [0.0470  0  0  0  0  0  0.1954 ... ]
 
 
 
